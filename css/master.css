@@ -1,0 +1,51 @@
+body {
+    /*tahoma is used if century gothic is not available*/
+    font-family: century gothic, tahoma, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    text-justify: inter-word;
+    /* background: radial-gradient(circle,white,lightgray); */
+}
+
+#Header {
+    text-align: center;
+}
+
+#Summary, #ProfessionalDevelopment, #ProfessionalExperience {
+    border-bottom: 1px dotted darkslategrey;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#firstname {
+    font-weight: lighter;
+    color: darkslategrey;
+}
+
+.lastname {
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ul {
+    color: black;
+    font-size: 0.8em;
+}
