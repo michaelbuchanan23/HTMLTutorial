@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form name="form1" method="get" action="UserFormProcessor.html">
+        <fieldset style="display:inline;">
+            <legend>User Registration</legend>
+            <table>
+                <input type="hidden" name="Id" id="Id">
+                <tr>
+                    <td>
+                        <label>Username:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="userName" id="userName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Reviewer?:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isReviewer" id="isReviewer" checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Admin?:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="isAdmin" id="isAdmin">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
